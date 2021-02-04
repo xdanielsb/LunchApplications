@@ -1,4 +1,4 @@
-from ..connection import execute
+from ..connection.pg_connection import execute
 from ..services import send_email
 
 

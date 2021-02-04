@@ -45,5 +45,5 @@ def execute(statement):
 
 if __name__ == "__main__":
     conn = psycopg2.connect(
-        host="localhost", database="apoyo_alimentario", user="", password=""
+         host="localhost", database="apoyo_alimentario", user="", password=""
     )

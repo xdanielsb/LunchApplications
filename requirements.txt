@@ -7,6 +7,7 @@ iniconfig==1.1.1
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
+cx-Oracle==8.1.0
 packaging==20.8
 Pillow==8.1.0
 pluggy==0.13.1

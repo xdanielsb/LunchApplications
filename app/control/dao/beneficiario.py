@@ -1,4 +1,4 @@
-from ..connection import query, execute
+from ..connection.pg_connection import query, execute
 
 
 class Beneficiario:

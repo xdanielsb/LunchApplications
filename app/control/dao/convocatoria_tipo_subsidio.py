@@ -1,4 +1,4 @@
-from ..connection import execute, query
+from ..connection.pg_connection import execute, query
 
 
 class ConvocatoriaTipoSubsidio:

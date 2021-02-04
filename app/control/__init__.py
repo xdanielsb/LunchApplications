@@ -1,4 +1,4 @@
-from .connection import get_db
+from .connection.pg_connection import get_db
 from .dao.convocatoria import Convocatoria
 from .dao.convocatoria_facultad import ConvocatoriaFacultad
 from .dao.convocatoria_tipo_subsidio import ConvocatoriaTipoSubsidio

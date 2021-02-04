@@ -1,4 +1,4 @@
-from ..connection import execute, query
+from ..connection.pg_connection import execute, query
 
 
 class Periodo:
@@ -17,3 +17,21 @@ class Periodo:
             id_periodo, fecha_inicio, fecha_fin
         )
         execute(q)
+        
+    
+    # def create(self, periodoDTO):
+    #     q = "insert into periodo(id_periodo, nombre, fecha_inicio, fecha_fin) values({},{},{})".format(
+    #         periodoDTO.id_periodo, periodoDTO.fecha_inicio, periodoDTO.fecha_fin
+    #     )
+    #     execute(q)
+    
+    # def create(self, id_periodo, fecha_inicio, fecha_fin):
+    #     periodoDTO=PeriodoDTO(id_periodo, fecha_inicio, fecha_fin)
+    #     q = "insert into periodo(id_periodo, nombre, fecha_inicio, fecha_fin) values({},{},{})".format(
+    #         periodoDTO.id_periodo, periodoDTO.fecha_inicio, periodoDTO.fecha_fin
+    #     )
+    #     execute(q)
+
+
+    
+    

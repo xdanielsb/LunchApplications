@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from ..connection import query
+from ..connection.pg_connection import query
 
 
 class PuntajeTipoDocumento:

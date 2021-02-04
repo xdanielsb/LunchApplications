@@ -1,5 +1,6 @@
-from ..connection import execute, query
-
+from ..connection.pg_connection import execute, query
+#from ..connection.or_connection import OracleConn
+#from ..connection.absConnect import AbsConnect
 
 class Solicitud:
     def create(self, data):
@@ -9,6 +10,8 @@ class Solicitud:
             data["id_convocatoria"],
             data["estrato"],
         )
+        #or_conn=OracleConn()    
+        #or_conn.execute(q)
         execute(q)
 
     def get_estado(self, id_solicitud):
